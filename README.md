@@ -37,10 +37,9 @@ By combining the outputs of GMF and MLP architectures, the recommendation system
 - Additional experiments and analyses may be conducted to further fine-tune the model and improve its performance on different datasets.
 
 ## Dependencies
-- Python 3.x
-- TensorFlow or PyTorch (or any other deep learning framework)
-- MovieLens dataset (or any other suitable dataset for recommendation systems)
-- Negative sampling library or implementation for handling implicit feedback data
+- Python 3.11
+- PyTorch 
+- MovieLens dataset 
 
 ## References
 - [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031)
