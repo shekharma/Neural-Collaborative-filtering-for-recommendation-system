@@ -9,19 +9,21 @@ The primary objective is to leverage neural network architectures to perform col
 Certainly! Here's the revised methodology section for your README file:
 
 ## Methodology
-## Neural Collaborative Filtering
+### Neural Collaborative Filtering
 ![image](https://github.com/shekharma/Neural-Collaborative-filtering-for-recommendation-system/assets/122733304/bd97d5ce-b644-423c-b004-3eff159c9736)
 
 ### Fusion of GMF and MLP
 - **Generalized Matrix Factorization (GMF)**: GMF is a collaborative filtering technique that learns latent factors for users and items through matrix factorization. Each user and item is represented as a vector of latent factors. The recommendation process involves computing the inner product between these vectors to predict preferences or ratings.
-  
+  ![image](https://github.com/shekharma/Neural-Collaborative-filtering-for-recommendation-system/assets/122733304/1f08ffaa-6be4-4b4e-a0f6-c631e44b3c40)
+
 - **Multi-Layer Perceptron (MLP)**: MLP is a type of feedforward neural network with multiple layers of nodes (neurons) between the input and output layers. Each neuron calculates a weighted sum of its inputs, applies an activation function, and passes the result to the next layer. MLPs are effective at capturing complex non-linear relationships in the data.
-  ![image](https://github.com/shekharma/Neural-Collaborative-filtering-for-recommendation-system/assets/122733304/0998c50e-4fa9-4a9e-8da9-8f1237d20912)
 
 The fusion of GMF and MLP combines the strengths of both approaches:
 - **GMF** focuses on capturing linear relationships between user and item latent factors through matrix factorization.
 - **MLP** captures non-linear interactions and patterns in the data through its multi-layer architecture and activation functions.
 
+  ![image](https://github.com/shekharma/Neural-Collaborative-filtering-for-recommendation-system/assets/122733304/0998c50e-4fa9-4a9e-8da9-8f1237d20912)
+  
 By combining the outputs of GMF and MLP architectures, the recommendation system leverages both linear and non-linear features. This fusion approach enhances the model's ability to capture diverse aspects of user-item interactions, leading to more accurate and personalized recommendations based on users' past preferences.
 
 
