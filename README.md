@@ -52,6 +52,4 @@ By combining the outputs of GMF and MLP architectures, the recommendation system
 - Official NCF implementation [Keras with Theano]: https://github.com/hexiangnan/neural_collaborative_filtering
 
 - Other nice NCF implementation [Pytorch]: https://github.com/LaceyChen17/neural-collaborative-filtering
----
 
-This README file provides an overview of the project, including its objectives, methodology, usage instructions, results, dependencies, and references to relevant research papers. It serves as a guide for users and contributors to understand the purpose and implementation details of the neural collaborative filtering recommendation system.
